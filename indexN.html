@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <!-- This is a wide open CSP declaration. To lock this down for production, see below. -->
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
+    
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <title>Hello World</title>
+</head>
+
+<body>
+
+
+<!-- ----side Menu -----* -->	
+  
+
+  <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <img src="img/DHlogo.png" alt="Digital Hawk 2016" style="width:236px;height:193px;">
+  <a onclick="about();">About</a>
+  <a onclick="rateus();">Rate Us</a>
+  <a onclick="moreRelatedApps();">More Apps</a>
+  <a href="whatsapp://send?text=Hanuman %20Chalisa ! https://play.google.com/store/apps/details?id=air.HanumanChalisaV1.A5&hl=en">Share App Via Whatsapp!</a>
+</div>
+
+<div class="fixed">
+<span style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+</div>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+		
+<ul>
+  <li><a href="http://mumbaithanelocal.blogspot.in/" target="iframe_a">Home</a></li>
+  <li><a href="http://allevents.in/thane" target="iframe_a">Events in Thane</a></li>
+  <li><a href="http://www.loksatta.com/thane/" target="iframe_a">Thane News</a></li>
+  <li><a href="http://news.google.co.in/?ned=hi_in&edchanged=1&authuser=0" target="iframe_a">News</a></li>
+  <li><a href="http://www.whatshot.in/mumbai/events" target="iframe_a">things-to-do in Mumbai</a></li>
+    <li><a href="http://m.santabanta.com/sms/" target="iframe_a">SMS</a></li>
+	<li><a href="https://in.bookmyshow.com/mumbai/movies" target="iframe_a">Movies</a></li>
+	<li><a href="http://www.ndtv.com/topic/mumbai-local-train/news" target="iframe_a">local-train news</a></li>
+</ul>
+
+<div style="padding:20px;margin-top:30px;background-color:#1abc9c;height:1500px; ">
+<iframe height="100%" width="100%" src="http://mumbaithanelocal.blogspot.in/" name="iframe_a"></iframe>
+
+</div>
+    </div>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript">
+        app.initialize();
+    </script>
+</body>
+
+</html>

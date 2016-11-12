@@ -47,3 +47,17 @@ var app = {
         console.log('Received Event: ' + id);
     }
 };
+
+function about(){
+	window.open("https://www.facebook.com/digital15hawk/?ref=bookmarks","_system");
+}
+
+function rateus(){
+
+	window.open("market://details?id=com.wTipsandTricks_3761762","_system");
+}
+
+function moreRelatedApps(){
+	window.open("https://play.google.com/store/search?q=digitalhawk2016&hl=en","_system");
+}
+
