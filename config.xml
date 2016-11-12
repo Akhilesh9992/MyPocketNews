@@ -25,6 +25,7 @@
   <plugin name="cordova-plugin-statusbar" source="npm" spec="~2.1.2"/>
   <plugin name="cordova-plugin-vibration" source="npm" spec="~2.1.0"/>
   <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1"/>
+  <plugin name="com.admob.google" spec="4.0.8" source="pgb" />
   <preference name="orientation" value="portrait" />
   <icon src="icon.png"/>
   <platform name="android">
