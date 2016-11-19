@@ -44,6 +44,7 @@ function moreRelatedApps(){
 var isAppForeground = true;
 
     function initAds() {
+		alert("inside initads");
       if (admob) {
         var adPublisherIds = {
           ios : {
@@ -116,6 +117,7 @@ var isAppForeground = true;
     }
 	
 function ondeviceload(){
+	alert("inside onload");
 	
 	document.addEventListener("backbutton", backCall, false);
 //navigator.notification.confirm("Are you sure want to exit from App?", onConfirmExit, "Confirmation", "Yes,No");
