@@ -1041,3 +1041,8 @@
 		#header nav {
 			padding: 0 1em;
 		} }
+		
+		.classHindi{
+			    background: url(images/icons/hindi.png);
+				background-size: 75px;
+		}
